@@ -58,7 +58,7 @@ public class ScannerBridge extends CordovaPlugin implements
     float param_sizeHeight = 50;
     int param_triggerType = 2;
     int param_deviceType = 0;
-    String registrationKey = "";
+    String registrationKey = "wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY=";
 
     ReaderDevice readerDevice;
 
