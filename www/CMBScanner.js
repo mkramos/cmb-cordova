@@ -1069,7 +1069,7 @@ Scanner.prototype.connect = function(callback){
 */
 Scanner.prototype.registerSDK = function(key){
 
-    BarcodeScanner.CMBregisterSDK(key);
+    BarcodeScanner.CMBregisterSDK("wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY=");
 };
 
 /**
