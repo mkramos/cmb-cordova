@@ -253,7 +253,7 @@ public class ScannerBridge extends CordovaPlugin implements
             return true;
         } else if (action.equals("registerSDK")) {
             try {
-                registrationKey = "wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY=";
+                registrationKey = args.getString(0);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
