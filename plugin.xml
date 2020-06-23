@@ -31,9 +31,7 @@
 			<uses-feature android:name="android.hardware.usb.host" />
 			<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26"/>
 		</config-file>
-		<edit-config file="AndroidManifest.xml" target="/manifest/uses-sdk" mode="merge">
-			
-		</edit-config>
+		
 		
 		<!-- sdk source -->
         <framework src="src/android/cmbsdklib.gradle" custom="true" type="gradleReference"/>
