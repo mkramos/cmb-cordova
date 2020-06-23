@@ -30,6 +30,9 @@
 			<uses-feature android:name="android.hardware.camera" android:required="true" />
 			<uses-feature android:name="android.hardware.usb.host" />
 			<uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26"/>
+			<meta-data
+        android:name="MX_MOBILE_LICENSE"
+        android:value="wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY=" />
 		</config-file>
 		
 		
