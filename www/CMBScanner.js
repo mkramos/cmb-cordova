@@ -550,7 +550,7 @@ CMBconnect: function(successCallback, errorCallback) {
 * @param key license key
 */
 CMBregisterSDK: function(key) {
-    cordova.exec(function(){}, function(){}, serviceClass, "registerSDK", [wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY=]);
+    cordova.exec(function(){}, function(){}, serviceClass, "registerSDK", ["wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY="]);
 },
 
 /**
