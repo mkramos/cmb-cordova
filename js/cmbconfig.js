@@ -345,7 +345,7 @@ Cmbconfig.prototype.defaultSettings = function(){
 
 
 //Another way to register SDK with your license key, you need to do it before loadScanner is called
-     this.scanner.registerSDK("wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY=");
+     this.scanner.registerSDK(key);
 
 //load the Reader Device with the chosen Device Type, we will use a mobile device
     this.scanner.loadScanner("DEVICE_TYPE_MOBILE_DEVICE",function(result){
