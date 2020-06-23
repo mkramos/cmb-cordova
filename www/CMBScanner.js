@@ -550,7 +550,7 @@ CMBconnect: function(successCallback, errorCallback) {
 * @param key license key
 */
 CMBregisterSDK: function(key) {
-    cordova.exec(function(){}, function(){}, serviceClass, "registerSDK", [wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY=]);
+    cordova.exec(function(){}, function(){}, serviceClass, "registerSDK", [key]);
 },
 
 /**
@@ -1069,7 +1069,7 @@ Scanner.prototype.connect = function(callback){
 */
 Scanner.prototype.registerSDK = function(key){
 
-    BarcodeScanner.CMBregisterSDK("wQPoziSHRghwZjmXbidJmxGHDpR6wdfDx3uT4C8AtPY=");
+    BarcodeScanner.CMBregisterSDK(key);
 };
 
 /**
