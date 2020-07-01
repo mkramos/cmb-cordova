@@ -1732,4 +1732,4 @@ Scanner.prototype.CONSTANTS = CONSTANTS;
 
 
 
-module.exports = new Scanner();
+module.exports = CMBScanner;
