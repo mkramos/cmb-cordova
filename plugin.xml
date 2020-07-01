@@ -8,7 +8,7 @@
     <license>Cognex/ManateeWorks License</license>
     <keywords>cordova,phonegap,barcode,scanner</keywords>
 	
-    <js-module src="www/CMBScanner.js" name="cmbScanner">
+    <js-module src="www/CMBScanner.js" name="Scanner">
         <clobbers target="cmbScanner" />
     </js-module>
     <asset src="js/cmbconfig.js" target="js/cmbconfig.js" />
