@@ -1731,5 +1731,5 @@ Scanner.prototype.restoreOnBackButton = function(){
 Scanner.prototype.CONSTANTS = CONSTANTS;
 
 
-var cmbScanner = new Scanner();
-module.exports = cmbScanner;
+var Scanner = new Scanner();
+module.exports = Scanner;
