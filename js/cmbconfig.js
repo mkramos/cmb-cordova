@@ -509,3 +509,4 @@ DOM_init.prototype =  {
         }
     }
 }
+module.exports = Cmbconfig;
